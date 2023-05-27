@@ -1,0 +1,44 @@
+.flex{
+ border: 2px solid black; 
+display: flex;
+justify-content: space-between;
+justify-content: space-around;
+height: 250px;
+width: 900px;
+align-items: center;
+/* justify-content: center; */
+
+flex-grow: 0;
+flex-shrink: 1;
+
+}
+
+body{
+
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+h2{
+
+    text-align: center;
+}
+.flex > div{
+
+    border: 2px solid black;
+    height: fit-content;
+    width: 250px;
+    padding-left: 15px;
+    background-color: gray;
+}
+
+ h5{
+   
+    margin-top: 0px;
+    /* text-align: end; */
+    float: right;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
